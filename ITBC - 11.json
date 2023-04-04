@@ -1,0 +1,51 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/5a7bb7ee-c220-4f26-96bf-4d1bf5413399", "fps": 10, "frames": 1785, "duration": 178.56663333333333, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.8, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 0.9, "end": 5.9, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on start site" },
+			{ "start": 6, "end": 13.1, "action": 5, "object": 0, "color": "#d035af", "description": "write in url bar on accident" },
+			{ "start": 13.2, "end": 23.5, "action": 5, "object": 0, "color": "#d035af", "description": "write \"Ethik\" in search bar, press enter to search" },
+			{ "start": 23.6, "end": 25.9, "action": 5, "object": 0, "color": "#d035af", "description": "click on \"Erweitert\" next to search button" },
+			{
+				"start": 26,
+				"end": 47.9,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "Add search bar, write \"Brandenburg\" in search bar, look at search restriction drop down, remove search bar"
+			},
+			{ "start": 48, "end": 56.6, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on \"Erweiterte Suche\" site, go back through browser" },
+			{ "start": 56.7, "end": 60.4, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first book card" },
+			{ "start": 60.5, "end": 66.9, "action": 5, "object": 0, "color": "#d035af", "description": "look at search restriction drop down" },
+			{ "start": 67, "end": 88.1, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim book cards, open interesting books in new tabs" },
+			{ "start": 88.2, "end": 103.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first open tab" },
+			{ "start": 103.2, "end": 105.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "read second oben tab, title only" },
+			{ "start": 105.6, "end": 109.2, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim third and fourth book tab tile" },
+			{ "start": 109.3, "end": 112.1, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on first open tab, switch back to search tab" },
+			{ "start": 112.2, "end": 114.5, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 114.6, "end": 119.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim right hand side filters, switch to first open book tab" },
+			{ "start": 120, "end": 124.4, "action": 3, "object": 0, "color": "#0c19ee", "description": "read action buttons above book title" },
+			{ "start": 124.5, "end": 178.4, "action": 5, "object": 0, "color": "#d035af", "description": "login, send as email" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] },
+			{ "id": 5, "name": "Interaktion", "color": "#d035af", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

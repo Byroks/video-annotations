@@ -1,0 +1,44 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/dca44bed-182a-4a62-b514-d8008041863d", "fps": 10, "frames": 2732, "duration": 273.2, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900, 1950, 2000, 2050, 2100, 2150, 2200, 2250, 2300, 2350, 2400, 2450, 2500, 2550, 2600, 2650, 2700
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.8, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 0.9, "end": 8.9, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on start site, close cookie consent" },
+			{ "start": 9, "end": 17, "action": 5, "object": 0, "color": "#d035af", "description": "write \"Ethik\" in search bar" },
+			{ "start": 17.1, "end": 22.6, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 22.7, "end": 25.2, "action": 5, "object": 0, "color": "#d035af", "description": "press enter to search" },
+			{ "start": 25.3, "end": 40.7, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first book card, scim second book card, read first book card, click on it" },
+			{ "start": 40.8, "end": 86.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "read book page" },
+			{ "start": 86.9, "end": 94.4, "action": 5, "object": 0, "color": "#d035af", "description": "write \"ethik berlin\" in search bar, press enter to search" },
+			{ "start": 94.5, "end": 105.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first and second book card, click on second" },
+			{ "start": 105.6, "end": 114.7, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim book page, go back" },
+			{ "start": 114.8, "end": 129.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim filter options" },
+			{ "start": 130, "end": 135, "action": 5, "object": 0, "color": "#d035af", "description": "select filter \"Lehrplan\"" },
+			{ "start": 135.1, "end": 141.4, "action": 5, "object": 0, "color": "#d035af", "description": "select filter \"NOT e-book\"" },
+			{ "start": 141.5, "end": 149, "action": 5, "object": 0, "color": "#d035af", "description": "deselect filter \"Lehrplan\"" },
+			{ "start": 149.1, "end": 152.5, "action": 5, "object": 0, "color": "#d035af", "description": "select filter \"Buch\"" },
+			{ "start": 152.6, "end": 158.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "read second book card, click it" },
+			{ "start": 158.9, "end": 234.7, "action": 3, "object": 0, "color": "#0c19ee", "description": "read book page" },
+			{ "start": 234.8, "end": 273.1, "action": 5, "object": 0, "color": "#d035af", "description": "login, send email, wrong book" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] },
+			{ "id": 5, "name": "Interaktion", "color": "#d035af", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

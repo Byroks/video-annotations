@@ -1,0 +1,35 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/7d88a4dd-0d30-496e-a523-149f9603bac1", "fps": 10, "frames": 795, "duration": 79.5333, "height": 1080, "width": 1920 },
+		"keyframeList": [0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.3, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 0.4, "end": 6.6, "action": 2, "object": 0, "color": "#def1d2", "description": "header image, navigation bar, look at task sheet" },
+			{ "start": 6.7, "end": 11.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read navigation bar, click on Team" },
+			{ "start": 11.2, "end": 13.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Team member Herzog" },
+			{ "start": 13.9, "end": 19.1, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 19.2, "end": 29, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read and mark team member herzog, for task 1" },
+			{ "start": 29.1, "end": 33, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 33.1, "end": 37.4, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Navigation bar, click on Bewerbung" },
+			{ "start": 37.5, "end": 52.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read wer kann sich bewerben, marking it for task 2" },
+			{ "start": 52.3, "end": 53.5, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 53.6, "end": 57.7, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Navigation bar, click on Studium" },
+			{ "start": 57.8, "end": 68.1, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Studium Site" },
+			{ "start": 68.2, "end": 78.3, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studiumplan, open Module 18 marking D18 for task 3" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

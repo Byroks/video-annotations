@@ -1,0 +1,50 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/bcd4aba0-9fdf-4b23-8e29-f7bbf54981a7", "fps": 10, "frames": 1946, "duration": 194.6, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.6, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 0.7, "end": 8.2, "action": 2, "object": 0, "color": "#def1d2", "description": "navigation bar, looking at task sheet" },
+			{ "start": 8.3, "end": 17.6, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim site for information" },
+			{ "start": 17.7, "end": 26.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "read and mark relevant information for task 1" },
+			{ "start": 26.2, "end": 36, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 36.1, "end": 43.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading studieninhalte" },
+			{ "start": 43.3, "end": 52.3, "action": 2, "object": 0, "color": "#def1d2", "description": "looking at task sheet, scroll to navigation bar" },
+			{ "start": 52.4, "end": 57.4, "action": 3, "object": 0, "color": "#0c19ee", "description": "read navigation bar, click on studium" },
+			{ "start": 57.5, "end": 60.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "read studium" },
+			{ "start": 60.7, "end": 64.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "scim organisation white area, skip back to read studium" },
+			{ "start": 64.2, "end": 71.7, "action": 4, "object": 0, "color": "#e0cc28", "description": "search for relevant information" },
+			{ "start": 71.8, "end": 79.7, "action": 3, "object": 0, "color": "#0c19ee", "description": "read Studienverlaufsplan" },
+			{ "start": 79.8, "end": 86.5, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim for relevant section" },
+			{ "start": 86.6, "end": 90, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading organisation white area" },
+			{ "start": 90.1, "end": 95, "action": 3, "object": 0, "color": "#0c19ee", "description": "read navigation bar, click on bewerbung" },
+			{ "start": 95.1, "end": 104.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading wer kann sich bewerben" },
+			{ "start": 104.6, "end": 107.1, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim for relevant section" },
+			{ "start": 107.2, "end": 110, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading dokumente" },
+			{ "start": 110.1, "end": 115.8, "action": 2, "object": 0, "color": "#def1d2", "description": "looking away, reorienting" },
+			{ "start": 115.9, "end": 131.3, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading dokumente" },
+			{ "start": 131.4, "end": 132.5, "action": 2, "object": 0, "color": "#def1d2", "description": "scroll up" },
+			{ "start": 132.6, "end": 157.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "read wer kann sich bewerben, marking relevant information for task 2" },
+			{ "start": 157.6, "end": 176, "action": 3, "object": 0, "color": "#0c19ee", "description": "scroll back do Dokumente, read and mark" },
+			{ "start": 176.1, "end": 183.7, "action": 2, "object": 0, "color": "#def1d2", "description": "recheck site, scroll up to navigation bar, click on studium" },
+			{ "start": 183.8, "end": 194.6, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim site, find relevant information for task 3, mark it" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/0dfbdbed-fe49-44ad-bfe8-8fc9274f9936", "fps": 10, "frames": 1471, "duration": 147.1, "height": 1080, "width": 1920 },
+		"keyframeList": [0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.6, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 0.7, "end": 5.3, "action": 2, "object": 0, "color": "#def1d2", "description": "header image" },
+			{ "start": 5.4, "end": 15.1, "action": 2, "object": 0, "color": "#def1d2", "description": "Looking at task sheet, eye-tracking artifacts" },
+			{ "start": 15.2, "end": 20.4, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read header image text, mark Digital Business Management" },
+			{ "start": 20.5, "end": 25.3, "action": 2, "object": 0, "color": "#def1d2", "description": "Looking at task sheet, eye-tracking artifacts" },
+			{ "start": 25.4, "end": 30.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read key facts" },
+			{ "start": 30.6, "end": 31.8, "action": 2, "object": 0, "color": "#def1d2", "description": "Looking at task sheet, eye-tracking artifacts" },
+			{ "start": 31.9, "end": 35, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read key facts, click on Bewerbung, open it in new tab" },
+			{ "start": 35.1, "end": 39.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studierende sagen" },
+			{ "start": 39.2, "end": 44, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studienprofil" },
+			{ "start": 44.1, "end": 52.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studieninhalte, opening Studium in new tab" },
+			{ "start": 52.7, "end": 54.1, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim News" },
+			{ "start": 54.2, "end": 67.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Kontakt, marking relevant information for task 1" },
+			{ "start": 67.6, "end": 70.8, "action": 2, "object": 0, "color": "#def1d2", "description": "Open bewerbung through tab, look at task sheet" },
+			{ "start": 70.9, "end": 80.6, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Bewerbung" },
+			{ "start": 80.7, "end": 86.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Dokumente" },
+			{ "start": 86.7, "end": 97, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read wer kann sich bewerben, mark relevant information for task 2" },
+			{ "start": 97.1, "end": 98.8, "action": 2, "object": 0, "color": "#def1d2", "description": "Close bewerbung, switching tab to Studium" },
+			{ "start": 98.9, "end": 107.3, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Studium" },
+			{ "start": 107.4, "end": 129.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studienverlaufsplan, mark it" },
+			{ "start": 129.6, "end": 133, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Studiums lower half, goes back to Studienverlaufsplan" },
+			{ "start": 133.1, "end": 147.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read/Count Studienverlaufsplan, answering question for task 3" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"version": "2.0.3",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/73528275-4720-4871-a47d-61fb14d52f01", "fps": 10, "frames": 5764, "duration": 576.4666333333333, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900, 1950, 2000, 2050, 2100, 2150, 2200, 2250, 2300, 2350, 2400, 2450, 2500, 2550, 2600, 2650, 2700, 2750, 2800, 2850, 2900, 2950, 3000, 3050, 3100, 3150,
+			3200, 3250, 3300, 3350, 3400, 3450, 3500, 3550, 3600, 3650, 3700, 3750, 3800, 3850, 3900, 3950, 4000, 4050, 4100, 4150, 4200, 4250, 4300, 4350, 4400, 4450, 4500, 4550, 4600, 4650,
+			4700, 4750, 4800, 4850, 4900, 4950, 5000, 5050, 5100, 5150, 5200, 5250, 5300, 5350, 5400, 5450, 5500, 5550, 5600, 5650, 5700, 5750
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 4, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 4.1, "end": 8.5, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 8.6, "end": 16.4, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on start site" },
+			{ "start": 16.5, "end": 23.7, "action": 2, "object": 0, "color": "#def1d2", "description": "Orientation on \"Erweiterte Suche\"" },
+			{
+				"start": 23.8,
+				"end": 32.1,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "click on drop down \"Suchbedingungen\", read the content, close without selecting anything"
+			},
+			{ "start": 32.1, "end": 41.4, "action": 5, "object": 0, "color": "#d035af", "description": "open search restriction dropdown, select \"Schagwort\" for first search bar" },
+			{ "start": 41.5, "end": 45.2, "action": 5, "object": 0, "color": "#d035af", "description": "click on drop down \"Suchbedingungen\", select \"mit ALLEN W\u00f6rtern\"" },
+			{
+				"start": 45.3,
+				"end": 49.1,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "click in first searchbar, look at keyboard while writing \"Ethik\", check what was written"
+			},
+			{ "start": 49.2, "end": 63.4, "action": 5, "object": 0, "color": "#d035af", "description": "open search restriction dropdown, select nothing for second search bar" },
+			{ "start": 63.5, "end": 66.7, "action": 5, "object": 0, "color": "#d035af", "description": "click on \"Suchkriterien hinzuf\u00fcgen\"" },
+			{ "start": 66.8, "end": 71.7, "action": 5, "object": 0, "color": "#d035af", "description": "open search restriction dropdown, click on \"Suchkriterium entfernen\"" },
+			{ "start": 71.8, "end": 99.6, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim search criteria" },
+			{ "start": 99.7, "end": 108.9, "action": 5, "object": 0, "color": "#d035af", "description": "select \"Schulbuch\", \"Lesebuch\" and \"Lehrhandbuch\" in \"Dokumenttyp\"" },
+			{ "start": 109, "end": 117.8, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 117.9, "end": 127.8, "action": 5, "object": 0, "color": "#d035af", "description": "select \"Lehrbuch (Hochschulniveau)\", \"Lehrbuch\" in \"Dokumenttyp\"" },
+			{ "start": 127.9, "end": 149, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim search criteria" },
+			{ "start": 149.1, "end": 158.5, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on site, click on \"suche\" button" },
+			{ "start": 158.6, "end": 189.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "read book cards" },
+			{ "start": 189.6, "end": 192.1, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 192.2, "end": 199.9, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on site, click on \"Erweiterte Suche bearbeiten\" button" },
+			{ "start": 200, "end": 232.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "read \"Hilfe zur erweiterten Suche\"" },
+			{ "start": 232.9, "end": 237.1, "action": 5, "object": 0, "color": "#d035af", "description": "add search field" },
+			{ "start": 237.2, "end": 253, "action": 5, "object": 0, "color": "#d035af", "description": "add \", Berlin, Brandenburg\" to first search bar" },
+			{ "start": 253.1, "end": 261.2, "action": 5, "object": 0, "color": "#d035af", "description": "search" },
+			{ "start": 261.3, "end": 265.8, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on emtpy result page, go back to \"erweiterte Suche\"" },
+			{ "start": 265.9, "end": 282.2, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim search criteria and footer" },
+			{ "start": 282.3, "end": 293.2, "action": 5, "object": 0, "color": "#d035af", "description": "remove \", Berlin, Brandenburg\" from first search bar, search" },
+			{ "start": 293.3, "end": 305.4, "action": 3, "object": 0, "color": "#0c19ee", "description": "read book cards" },
+			{ "start": 305.5, "end": 315.4, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim right hand side filters, go back to erweiterte suche" },
+			{ "start": 315.5, "end": 320.1, "action": 5, "object": 0, "color": "#d035af", "description": "select only \"Schulbuch\" in \"Dokumenttyp\", search" },
+			{ "start": 320.2, "end": 341.5, "action": 5, "object": 0, "color": "#d035af", "description": "go back to erweiterte suche, try to deselect \"Schulbuch\" in \"Dokumenttyp\"" },
+			{ "start": 341.6, "end": 373.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "read content in \"Unterrichtsfach\"" },
+			{ "start": 373.9, "end": 385.8, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim search criteria and click on search" },
+			{ "start": 385.9, "end": 412.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "read book cards" },
+			{ "start": 412.9, "end": 420.3, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim right hand side filters" },
+			{ "start": 420.4, "end": 436.2, "action": 5, "object": 0, "color": "#d035af", "description": "open Deutschland Filter,don't select anything" },
+			{ "start": 436.3, "end": 442.5, "action": 5, "object": 0, "color": "#d035af", "description": "select only \"Unbekannt\" in \"Dokumenttyp\", search" },
+			{ "start": 442.6, "end": 445.3, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on emtpy result page, go back to \"erweiterte Suche\"" },
+			{
+				"start": 445.4,
+				"end": 471.7,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "select \"Atlas\", \"Lehrhandbuch (Hochschule niveau)\", \"Lehrbuch\", \"Lehrhandbuch\" \"Lesebuch\" and \"Schulbuch\" in \"Dokumenttyp\", search"
+			},
+			{ "start": 471.8, "end": 480, "action": 5, "object": 0, "color": "#d035af", "description": "Select Deutschland filter, deslect Deutschland filter, resetting all filters this way?" },
+			{ "start": 480.1, "end": 493.8, "action": 5, "object": 0, "color": "#d035af", "description": "open Deutschland filter, selecting \"Brandenburg\"" },
+			{ "start": 493.9, "end": 509.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "read book cards" },
+			{ "start": 509.7, "end": 517.7, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim right hand side filters" },
+			{ "start": 517.8, "end": 528, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 528.1, "end": 535.6, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on site, click on \"Volltextsuche\"" },
+			{ "start": 535.7, "end": 545.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first book card, click on \"Erweiterte Suche\"" },
+			{ "start": 545.9, "end": 576.4, "action": 3, "object": 0, "color": "#0c19ee", "description": "read \"Hilfe zur erweiterten Suche\"" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] },
+			{ "id": 5, "name": "Interaktion", "color": "#d035af", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/e5aedc60-24c2-4710-8fea-f967037c530f", "fps": 10, "frames": 2598, "duration": 259.89996666666667, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900, 1950, 2000, 2050, 2100, 2150, 2200, 2250, 2300, 2350, 2400, 2450, 2500, 2550
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 145.2, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 145.3, "end": 154.7, "action": 2, "object": 0, "color": "#def1d2", "description": "header image, navigation bar, looking at task sheet" },
+			{ "start": 154.8, "end": 160, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading naivgation bar, clicking on Studium" },
+			{ "start": 160.1, "end": 170.7, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading studium, clicking on link in text, goes back to start site" },
+			{ "start": 170.8, "end": 177.2, "action": 2, "object": 0, "color": "#def1d2", "description": "reorieanting, clicking on studium in navigation bar" },
+			{ "start": 177.3, "end": 181.1, "action": 2, "object": 0, "color": "#def1d2", "description": "reorienting on studium, going to next text section" },
+			{ "start": 181.2, "end": 188, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading organisation white area" },
+			{ "start": 188.1, "end": 195.5, "action": 4, "object": 0, "color": "#e0cc28", "description": "Sciming studium site" },
+			{
+				"start": 195.6,
+				"end": 211.1,
+				"action": 3,
+				"object": 0,
+				"color": "#0c19ee",
+				"description": "reading relevant information for task 1, looking at task sheet, marking relevant information"
+			},
+			{ "start": 211.2, "end": 220.4, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim studium site" },
+			{ "start": 220.5, "end": 231.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "rereading organisation white area" },
+			{ "start": 231.9, "end": 239.2, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim studium site" },
+			{ "start": 239.3, "end": 244.2, "action": 2, "object": 0, "color": "#def1d2", "description": "scrolling up to navigation bar, clicks on Bewerbung" },
+			{ "start": 244.3, "end": 251.4, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reading wer kann sich bewerben, marking relevant information for task 2" },
+			{ "start": 251.5, "end": 255.1, "action": 2, "object": 0, "color": "#def1d2", "description": "going to navigation bar, clicking on home and directly afterwards studium" },
+			{ "start": 255.2, "end": 259.7, "action": 3, "object": 0, "color": "#0c19ee", "description": "rereading organisation white area, marking relevant information" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

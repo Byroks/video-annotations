@@ -1,0 +1,67 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/9a2edfc2-6954-4e8c-98b8-cf8edfa66c33", "fps": 10, "frames": 1922, "duration": 192.26663333333335, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.6, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 0.7, "end": 6.7, "action": 2, "object": 0, "color": "#def1d2", "description": "header image, navigation bar" },
+			{ "start": 6.8, "end": 12.5, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim site for relevant information" },
+			{ "start": 12.6, "end": 21.9, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studieninhalte" },
+			{ "start": 22, "end": 29.3, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Kontakte" },
+			{ "start": 29.4, "end": 30.7, "action": 2, "object": 0, "color": "#def1d2", "description": "" },
+			{ "start": 30.8, "end": 37.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "read Kontakte, mark relevant information for task 1, look at task sheet" },
+			{ "start": 37.2, "end": 44.2, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim start site while scrolling up" },
+			{ "start": 44.3, "end": 49.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read navigation bar, click on Bewerbung" },
+			{ "start": 49.2, "end": 57.9, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reading wer kann sich bewerben, marking relevant information for task 2" },
+			{ "start": 58, "end": 63.2, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Bewerbung site for relevant information" },
+			{ "start": 63.3, "end": 65.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read navigation bar, click on studium" },
+			{ "start": 65.6, "end": 70.3, "action": 2, "object": 0, "color": "#def1d2", "description": "orientate on Studium site" },
+			{ "start": 70.4, "end": 76.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studienverlaufsplan" },
+			{ "start": 76.7, "end": 78.3, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Campus" },
+			{ "start": 78.4, "end": 81.9, "action": 3, "object": 0, "color": "#0c19ee", "description": "Rereading Kontakt, marking task 1 information again" },
+			{ "start": 82, "end": 83.7, "action": 2, "object": 0, "color": "#def1d2", "description": "orientate on Studium site" },
+			{
+				"start": 83.8,
+				"end": 88.6,
+				"action": 3,
+				"object": 0,
+				"color": "#0c19ee",
+				"description": "Reading Studienverlaufsplan, opening one module, reading text and clicking on link in text"
+			},
+			{ "start": 88.7, "end": 94.7, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Projekte Site" },
+			{ "start": 94.8, "end": 98, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read navigation bar" },
+			{ "start": 98.1, "end": 107, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet, orientate on projekte site" },
+			{ "start": 107.1, "end": 108.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Navigation bar, click on Studium" },
+			{ "start": 108.9, "end": 112.6, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim first half of Studium site" },
+			{ "start": 112.7, "end": 115, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studienverlaufsplan button" },
+			{ "start": 115.1, "end": 117.4, "action": 2, "object": 0, "color": "#def1d2", "description": "orientate on Studienplan" },
+			{ "start": 117.5, "end": 121.8, "action": 2, "object": 0, "color": "#def1d2", "description": "open Studienverlaufsplan, go back to Studium" },
+			{ "start": 121.9, "end": 128.3, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Studium Site for relevant information" },
+			{ "start": 128.4, "end": 132, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Navigation bar, click on home" },
+			{ "start": 132.1, "end": 140.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Key Facts" },
+			{ "start": 140.7, "end": 154, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studierende sagen, skips through the pictures, looks at the persons" },
+			{ "start": 154.1, "end": 155.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Studienprofil" },
+			{ "start": 156, "end": 170.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studieninhalte" },
+			{ "start": 170.2, "end": 175.5, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim news and Kontakt, click on Studium button beneath Studieninhalte" },
+			{ "start": 175.6, "end": 180, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studium" },
+			{ "start": 180.1, "end": 192.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Organisation white area, mark relevant information for task 2" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

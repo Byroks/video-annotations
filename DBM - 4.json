@@ -1,0 +1,43 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/ea18a090-e366-4a67-bb82-2a5f2973f0fc", "fps": 10, "frames": 1540, "duration": 154.0333, "height": 1080, "width": 1920 },
+		"keyframeList": [0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.3, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 0.4, "end": 5, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reading Navigation bar" },
+			{ "start": 5.1, "end": 14.1, "action": 4, "object": 0, "color": "#e0cc28", "description": "Sciming the Studium site" },
+			{ "start": 14.2, "end": 23.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reading Studienverlaufsplan, opening one module" },
+			{ "start": 23.3, "end": 26.9, "action": 2, "object": 0, "color": "#def1d2", "description": "looking at the task sheet, scrolling further down" },
+			{ "start": 27, "end": 30.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reading and marking relevant information for task 1" },
+			{ "start": 30.3, "end": 35.7, "action": 4, "object": 0, "color": "#e0cc28", "description": "looking at task paper, sciming section headers and scrolling up" },
+			{ "start": 35.8, "end": 44.9, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reading Organisation grey area" },
+			{ "start": 45, "end": 52.3, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reading Organisation white area, marking relevant information for task 3" },
+			{ "start": 52.4, "end": 54.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading Studium" },
+			{ "start": 54.9, "end": 58.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "rading navigation bar" },
+			{ "start": 58.3, "end": 74.7, "action": 4, "object": 0, "color": "#e0cc28", "description": "Slow Sciming of the Studium site, focus on headlines, sometimes reading a bit of content" },
+			{ "start": 74.8, "end": 86.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "reReading Organisation grey area" },
+			{ "start": 86.7, "end": 102.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "rereading Oranisation white area" },
+			{ "start": 102.7, "end": 117.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "rereading Studium" },
+			{ "start": 117.3, "end": 122.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "rereading navigation bar, clicking on bewerbung" },
+			{ "start": 122.6, "end": 124.3, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading Wer kann sich bewerben?" },
+			{ "start": 124.4, "end": 127.2, "action": 4, "object": 0, "color": "#e0cc28", "description": "sciming site for relevant section" },
+			{ "start": 127.3, "end": 130.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading Dokumente, marking it" },
+			{ "start": 130.6, "end": 136.2, "action": 4, "object": 0, "color": "#e0cc28", "description": "Sciming rest of site for relevant information" },
+			{ "start": 136.3, "end": 154, "action": 3, "object": 0, "color": "#0c19ee", "description": "Rereading wer kann sich bewerben, marking the relevant information for task 2" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

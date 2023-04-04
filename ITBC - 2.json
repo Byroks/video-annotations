@@ -1,0 +1,40 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/529f7490-a78b-4133-b612-56fc92d86e4b", "fps": 10, "frames": 1969, "duration": 196.9333, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900, 1950
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 11.7, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 11.8, "end": 38.9, "action": 2, "object": 0, "color": "#def1d2", "description": "Orientating on the start site" },
+			{ "start": 39, "end": 42.9, "action": 5, "object": 0, "color": "#d035af", "description": "writing \"ethik\" in the search bar" },
+			{ "start": 43, "end": 58.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read suggestions for the search \"ethik\", closing the drop down" },
+			{ "start": 58.3, "end": 65.5, "action": 2, "object": 0, "color": "#def1d2", "description": "looking what else exists on the start site" },
+			{ "start": 65.6, "end": 77.8, "action": 5, "object": 0, "color": "#d035af", "description": "click on \"Volltextsuche\", Reading \"st\u00f6bern Land\"" },
+			{ "start": 77.9, "end": 80.9, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on new site" },
+			{ "start": 81, "end": 87.2, "action": 5, "object": 0, "color": "#d035af", "description": "writing \"ethik\" in the search bar, looking at the suggestions, pressing enter" },
+			{ "start": 87.3, "end": 93.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read first book card" },
+			{ "start": 93.2, "end": 96, "action": 2, "object": 0, "color": "#def1d2", "description": "looking at task sheet" },
+			{ "start": 96.1, "end": 106.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "read second book card, clicking on it" },
+			{ "start": 106.3, "end": 128.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read book page" },
+			{ "start": 128.3, "end": 139.8, "action": 2, "object": 0, "color": "#def1d2", "description": "looking at task sheet" },
+			{ "start": 139.9, "end": 196.8, "action": 5, "object": 0, "color": "#d035af", "description": "\"click on E-mail button, enter username and password, enter email adress, send email\"" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] },
+			{ "id": 5, "name": "Interaktion", "color": "#d035af", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

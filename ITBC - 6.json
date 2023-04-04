@@ -1,0 +1,74 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/ff4a222e-10dc-4b84-a96f-fde631a2105d", "fps": 10, "frames": 2894, "duration": 289.4, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900, 1950, 2000, 2050, 2100, 2150, 2200, 2250, 2300, 2350, 2400, 2450, 2500, 2550, 2600, 2650, 2700, 2750, 2800, 2850
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.9, "action": 0, "object": 0, "color": "#000000", "description": "load" },
+			{ "start": 1, "end": 3.2, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on start site" },
+			{ "start": 3.3, "end": 9, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim filter categories at bottom of site" },
+			{ "start": 9.1, "end": 17.4, "action": 2, "object": 0, "color": "#def1d2", "description": "look at header image, click on \"Erweiterte Suche\"" },
+			{
+				"start": 17.5,
+				"end": 36.8,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "click on search restriction, open dop down, look at everything, closes it again without choosing anything"
+			},
+			{ "start": 36.9, "end": 40.9, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{
+				"start": 41,
+				"end": 44.6,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "click on search restriction, open dop down, look at everything, closes it again without choosing anything"
+			},
+			{ "start": 44.7, "end": 49.4, "action": 2, "object": 0, "color": "#def1d2", "description": "look at filter categories, skip to search bar, go back to normal search" },
+			{ "start": 49.5, "end": 56.8, "action": 5, "object": 0, "color": "#d035af", "description": "write \"ethik\" in search bar, look at suggestions, press enter to search" },
+			{ "start": 56.9, "end": 65.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first book card, read actions on top of it" },
+			{
+				"start": 65.9,
+				"end": 85.8,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "selects \"Deutschland\" filter, opens \"Deutschland\", selects \"Berlin\", collapses\"Land\" filter"
+			},
+			{ "start": 85.9, "end": 101.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scims filter on right hand side, selectes \"Format Buch\"" },
+			{
+				"start": 102,
+				"end": 135.6,
+				"action": 3,
+				"object": 0,
+				"color": "#0c19ee",
+				"description": "read first book card, opens further information, reads it, read second book card, opens further information, reads it"
+			},
+			{ "start": 135.7, "end": 150.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim filters on right hand side" },
+			{ "start": 151, "end": 161.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim book cards and content" },
+			{ "start": 162, "end": 176, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first book card" },
+			{ "start": 176.1, "end": 178.3, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim filters on right hand side" },
+			{ "start": 178.4, "end": 209.5, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim book cards and content, click on one book card that fits the task" },
+			{ "start": 209.6, "end": 249.3, "action": 3, "object": 0, "color": "#0c19ee", "description": "read book page" },
+			{ "start": 249.4, "end": 289.3, "action": 5, "object": 0, "color": "#d035af", "description": "login, send as email" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] },
+			{ "id": 5, "name": "Interaktion", "color": "#d035af", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

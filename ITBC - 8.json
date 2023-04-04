@@ -1,0 +1,48 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/8f3615fd-8804-4099-b681-0a73283de320", "fps": 10, "frames": 1478, "duration": 147.86663333333334, "height": 1080, "width": 1920 },
+		"keyframeList": [0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.8, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 0.9, "end": 3.4, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on start site" },
+			{ "start": 3.5, "end": 7.1, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 7.2, "end": 11.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Search bar and associated buttons" },
+			{ "start": 11.3, "end": 15.2, "action": 5, "object": 0, "color": "#d035af", "description": "choose \"Schlagwort\" from the search restriction dropdown" },
+			{ "start": 15.3, "end": 26.5, "action": 5, "object": 0, "color": "#d035af", "description": "write \"Ethik\" into search bar, click search button" },
+			{ "start": 26.6, "end": 30.3, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on new site" },
+			{ "start": 30.4, "end": 41.2, "action": 5, "object": 0, "color": "#d035af", "description": "open \"Detuschland\", read containing filters" },
+			{ "start": 41.3, "end": 42.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read right hand side filters" },
+			{
+				"start": 42.7,
+				"end": 58.1,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "Delete Search bar content, change search restriction to \"Alle Felder\", write \"Ethik\" in search bar, press enter to search"
+			},
+			{ "start": 58.2, "end": 66.2, "action": 5, "object": 0, "color": "#d035af", "description": "Open \"Deutschland\", select \"Berlin\"" },
+			{ "start": 66.3, "end": 68.8, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 68.9, "end": 78.4, "action": 5, "object": 0, "color": "#d035af", "description": "Read right hand side filter and select \"Buch\"" },
+			{ "start": 78.5, "end": 81, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read first book card" },
+			{ "start": 81.1, "end": 85.6, "action": 2, "object": 0, "color": "#def1d2", "description": "look at filters" },
+			{ "start": 85.7, "end": 91.3, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first book card, click it" },
+			{ "start": 91.4, "end": 94.5, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on book page" },
+			{ "start": 94.6, "end": 147.7, "action": 5, "object": 0, "color": "#d035af", "description": "login, send email" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] },
+			{ "id": 5, "name": "Interaktion", "color": "#d035af", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/b89c2ea6-6bc3-4563-a8df-198e7be0180d", "fps": 10, "frames": 2687, "duration": 268.76663333333335, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900, 1950, 2000, 2050, 2100, 2150, 2200, 2250, 2300, 2350, 2400, 2450, 2500, 2550, 2600, 2650
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.6, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 0.7, "end": 12.2, "action": 2, "object": 0, "color": "#def1d2", "description": "header image" },
+			{ "start": 12.3, "end": 15, "action": 3, "object": 0, "color": "#0c19ee", "description": "read header image text" },
+			{ "start": 15.1, "end": 33.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading key facts, looking at task sheet" },
+			{ "start": 33.6, "end": 37.6, "action": 4, "object": 0, "color": "#e0cc28", "description": "sciming Studierende sagen, going to Studienprofil" },
+			{ "start": 37.7, "end": 47.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading studienprofil" },
+			{ "start": 47.6, "end": 65.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading studieninhalte" },
+			{ "start": 65.3, "end": 67.2, "action": 4, "object": 0, "color": "#e0cc28", "description": "sciming to next text section" },
+			{
+				"start": 67.3,
+				"end": 78.2,
+				"action": 3,
+				"object": 0,
+				"color": "#0c19ee",
+				"description": "reading relevant information for task 1, confirming with task sheet, marking relevant information"
+			},
+			{ "start": 78.3, "end": 81.6, "action": 2, "object": 0, "color": "#def1d2", "description": "scrolling back to studium button, clicking it" },
+			{ "start": 81.7, "end": 85, "action": 2, "object": 0, "color": "#def1d2", "description": "orienting on studium site" },
+			{ "start": 85.1, "end": 89, "action": 4, "object": 0, "color": "#e0cc28", "description": "sciming Studium and Organisation" },
+			{ "start": 89.1, "end": 105.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading Organisation white area" },
+			{ "start": 105.7, "end": 118.3, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading organisation grey area" },
+			{
+				"start": 118.4,
+				"end": 180.9,
+				"action": 3,
+				"object": 0,
+				"color": "#0c19ee",
+				"description": "reading Studienverlaufsplan, checking for information about task 3, counting module answering the task in person"
+			},
+			{ "start": 181, "end": 195.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim site for relevant information" },
+			{ "start": 196, "end": 200.7, "action": 3, "object": 0, "color": "#0c19ee", "description": "Rereading Organisation" },
+			{ "start": 200.8, "end": 204.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "rereading Studium" },
+			{ "start": 204.6, "end": 207.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading navigation bar" },
+			{
+				"start": 207.7,
+				"end": 213.7,
+				"action": 2,
+				"object": 0,
+				"color": "#def1d2",
+				"description": "going back with browser control, going back again to start site, using bewerben button to go to bewerbung"
+			},
+			{ "start": 213.8, "end": 221.9, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading wer kann sich bewerben" },
+			{ "start": 221.9, "end": 225.1, "action": 2, "object": 0, "color": "#def1d2", "description": "checking further down, going back to first section" },
+			{ "start": 225.2, "end": 238.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "continue reading wer kann sich bewerben" },
+			{ "start": 238.3, "end": 245.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "reading Dokumente" },
+			{ "start": 245.2, "end": 250.9, "action": 2, "object": 0, "color": "#def1d2", "description": "checking Geb\u00fchren and F\u00f6rderung, looking at task sheet" },
+			{ "start": 251, "end": 261.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "rereading Dokumente, marking it" },
+			{ "start": 261.9, "end": 268.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "rereading wer kann sich bewerben, marking relevant information for task 2" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

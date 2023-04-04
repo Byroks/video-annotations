@@ -1,0 +1,71 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/efaa3a1f-2b23-4dc3-beb4-e1703f2d68ee", "fps": 10, "frames": 3268, "duration": 326.8, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900, 1950, 2000, 2050, 2100, 2150, 2200, 2250, 2300, 2350, 2400, 2450, 2500, 2550, 2600, 2650, 2700, 2750, 2800, 2850, 2900, 2950, 3000, 3050, 3100, 3150,
+			3200, 3250
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.9, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 1, "end": 5.9, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on start site" },
+			{ "start": 6, "end": 10.1, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim filter categories" },
+			{ "start": 10.2, "end": 19.8, "action": 5, "object": 0, "color": "#d035af", "description": "write \"Ethik\" in search bar, click search button" },
+			{ "start": 19.9, "end": 21.9, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on new site" },
+			{ "start": 22, "end": 26.8, "action": 5, "object": 0, "color": "#d035af", "description": "select filter \"Deutschland\"" },
+			{ "start": 26.9, "end": 34.5, "action": 5, "object": 0, "color": "#d035af", "description": "scim right hand side filters, select \"Buch\"" },
+			{ "start": 34.6, "end": 41, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim right hand side filters" },
+			{ "start": 41.1, "end": 55, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on site, look at search bar and buttons, click on \"erweitert\"" },
+			{ "start": 55.1, "end": 59.8, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim filter categories" },
+			{ "start": 59.9, "end": 66.3, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on site" },
+			{ "start": 66.4, "end": 71.7, "action": 5, "object": 0, "color": "#d035af", "description": "add \"Suchkriterium\", write \"Berlin\" in search bar" },
+			{ "start": 71.8, "end": 75.1, "action": 5, "object": 0, "color": "#d035af", "description": "change \"Suchbedingung\" for \"Berlin\" to \"mit IRGENDEINEM der W\u00f6rter\"" },
+			{ "start": 75.2, "end": 79.6, "action": 5, "object": 0, "color": "#d035af", "description": "add \"Brandenburg\" to \"berlin\" searchbar" },
+			{ "start": 79.7, "end": 87.1, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 87.2, "end": 92.7, "action": 5, "object": 0, "color": "#d035af", "description": "click search button" },
+			{ "start": 92.8, "end": 107.6, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim book cards and right hand side filters" },
+			{ "start": 107.7, "end": 115.4, "action": 5, "object": 0, "color": "#d035af", "description": "go back to erweiterte suche, add new Suchkriterium, enter word \"gebunden\", search" },
+			{ "start": 115.5, "end": 124.1, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on new site, click on \"suche ohne filter wiederholen\"" },
+			{ "start": 124.2, "end": 128.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "read suchbegriffe, click on \"neue einfache suche starten\"" },
+			{ "start": 128.7, "end": 134.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "read filter categories" },
+			{ "start": 134.9, "end": 138.1, "action": 5, "object": 0, "color": "#d035af", "description": "click on \"erweiterte suche\"" },
+			{ "start": 138.2, "end": 145, "action": 5, "object": 0, "color": "#d035af", "description": "write \"Ethik\" in first search bar, click in second" },
+			{ "start": 144.1, "end": 158.9, "action": 3, "object": 0, "color": "#0c19ee", "description": "read \"hilfe zur erweiterten Suche\" in a new tab" },
+			{
+				"start": 159,
+				"end": 173.2,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "write \"Berlin Brandenburg\" in second serach bar, write \"gebunden\" in third search bar, click on search"
+			},
+			{ "start": 173.3, "end": 190.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim book cards, open first book card in new tab" },
+			{ "start": 191, "end": 195.3, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim book page, go back first tab" },
+			{ "start": 195.4, "end": 219.5, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim book cards" },
+			{ "start": 219.6, "end": 228.2, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim right hand side filters" },
+			{ "start": 228.3, "end": 235.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "read suchbegriffe, click on \"erweiterte suche bearbeiten\"" },
+			{ "start": 235.9, "end": 251.3, "action": 5, "object": 0, "color": "#d035af", "description": "look at search restriction dropdown, remove \"gebunden\" serach bar, click on search" },
+			{ "start": 251.4, "end": 259, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first and second book card, open second book card in a new tab" },
+			{ "start": 259.1, "end": 265.8, "action": 2, "object": 0, "color": "#def1d2", "description": "switch tab to book page, look at task sheet" },
+			{ "start": 265.9, "end": 272.9, "action": 5, "object": 0, "color": "#d035af", "description": "open \"als email versenden\", close the login screen" },
+			{ "start": 273, "end": 278.2, "action": 5, "object": 0, "color": "#d035af", "description": "click on \"zur\u00fcck zum Suchergebnis\", switch tab to search page" },
+			{ "start": 278.3, "end": 283.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "read second book card, switch tab" },
+			{ "start": 283.7, "end": 326.7, "action": 5, "object": 0, "color": "#d035af", "description": "switch tab to old open book page, login, send email" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] },
+			{ "id": 5, "name": "Interaktion", "color": "#d035af", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

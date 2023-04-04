@@ -1,0 +1,47 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/ec2d7542-9088-47da-af22-4d01ba50e74d", "fps": 10, "frames": 1746, "duration": 174.66663333333332, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.4, "action": 0, "object": 0, "color": "#000000", "description": "load" },
+			{ "start": 0.5, "end": 5.2, "action": 2, "object": 0, "color": "#def1d2", "description": "header image, navigation bar, top logos" },
+			{ "start": 5.3, "end": 10.7, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read key facts" },
+			{ "start": 10.8, "end": 15, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studierende sagen" },
+			{ "start": 15.1, "end": 20, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Start site" },
+			{ "start": 20.1, "end": 36, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Kontakte, mark relevant information for task 1" },
+			{ "start": 36.1, "end": 41.9, "action": 2, "object": 0, "color": "#def1d2", "description": "Orientate on start site, look at task sheet" },
+			{ "start": 42, "end": 48.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read news preview" },
+			{ "start": 48.7, "end": 54.3, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Start site" },
+			{ "start": 54.4, "end": 65.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Key facts" },
+			{ "start": 65.9, "end": 75.4, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Start site" },
+			{ "start": 75.5, "end": 94.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studieninhalte" },
+			{ "start": 94.9, "end": 105.6, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Start site" },
+			{ "start": 105.7, "end": 107.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Navigation bar" },
+			{ "start": 107.3, "end": 122, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Key Facts, click on Bewerben button" },
+			{ "start": 122.1, "end": 141.9, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read wer kann sich bewerben, mark relevant information for task 2" },
+			{ "start": 142, "end": 145.2, "action": 2, "object": 0, "color": "#def1d2", "description": "Look at task sheet, scroll down to dokumente" },
+			{ "start": 145.3, "end": 150, "action": 2, "object": 0, "color": "#def1d2", "description": "Scim Dokumente, F\u00f6rderung and Geb\u00fchren, go back to start site" },
+			{ "start": 150.1, "end": 154.7, "action": 2, "object": 0, "color": "#def1d2", "description": "Reorientate on start site, look at task sheet" },
+			{ "start": 154.8, "end": 160.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim start site, click on Studium button " },
+			{ "start": 161, "end": 165, "action": 2, "object": 0, "color": "#def1d2", "description": "Orientate on studium site" },
+			{ "start": 165.1, "end": 174.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Organisation white area, mark relevant information for task 3" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

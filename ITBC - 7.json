@@ -1,0 +1,83 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/7f8146b8-8393-4cfa-afb6-4be7488cb5e2", "fps": 10, "frames": 3555, "duration": 355.5333, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900, 1950, 2000, 2050, 2100, 2150, 2200, 2250, 2300, 2350, 2400, 2450, 2500, 2550, 2600, 2650, 2700, 2750, 2800, 2850, 2900, 2950, 3000, 3050, 3100, 3150,
+			3200, 3250, 3300, 3350, 3400, 3450, 3500, 3550
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 1.1, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 1.2, "end": 5, "action": 2, "object": 0, "color": "#def1d2", "description": "look at search bar, click on \"Erweiterte Suche\"" },
+			{
+				"start": 5.1,
+				"end": 22.1,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "open restriction drop down, select \"Schlagwort\", enter \"Ethik\" in corresponding search bar, open second restriction drop down"
+			},
+			{ "start": 22.2, "end": 26, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 26.1, "end": 34.1, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on site" },
+			{ "start": 34.2, "end": 39.1, "action": 5, "object": 0, "color": "#d035af", "description": "click on \"Suchkreterien hinzuf\u00fcgen\", opens restriction drop down" },
+			{ "start": 39.2, "end": 53.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "opens and reads \"Hilfe zur erweiterten Suche\"" },
+			{
+				"start": 53.3,
+				"end": 78.7,
+				"action": 4,
+				"object": 0,
+				"color": "#e0cc28",
+				"description": "goes back to start site, scims filter categories, goes to \"Erweiterte Suche\" scims filter categories"
+			},
+			{ "start": 78.8, "end": 85.5, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 85.6, "end": 108, "action": 5, "object": 0, "color": "#d035af", "description": "login" },
+			{ "start": 108.1, "end": 123.8, "action": 4, "object": 0, "color": "#e0cc28", "description": "scims through account favourites and saved search querys" },
+			{ "start": 123.9, "end": 131.1, "action": 5, "object": 0, "color": "#d035af", "description": "look at \"Suchbedingungen\"" },
+			{
+				"start": 131.2,
+				"end": 171.6,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "Select \"Schlagwort\" in first restriction dropdown, write \"Ethik\" in search bar, look at restriction, write \"Berlin\" in second search bar, write \"Brandenburg\" in third search bar, add search bar, write \"gebunden\" in fourth search bar, search"
+			},
+			{ "start": 171.7, "end": 178.4, "action": 2, "object": 0, "color": "#def1d2", "description": "orieantation on new site, go back to \"Erweiterte Suche\"" },
+			{
+				"start": 178.5,
+				"end": 192.8,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "check restriction drop down again, remove serach bar for \"Brandenburg\" and \"gebunden\", searches with \"Ethik - Schlagwort\" and \"Berlin\""
+			},
+			{ "start": 192.9, "end": 196.8, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on new site, go back to \"Erweiterte Suche\"" },
+			{ "start": 196.9, "end": 202.8, "action": 5, "object": 0, "color": "#d035af", "description": "write \"Brandenbug\" in third search bar, searches" },
+			{ "start": 202.9, "end": 207.8, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on new site, go back to \"Erweiterte Suche\"" },
+			{ "start": 207.9, "end": 212.6, "action": 5, "object": 0, "color": "#d035af", "description": "correct \"Brandenbug\" to \"Brandenburg\", searches" },
+			{ "start": 212.7, "end": 220.2, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on new site, go back to \"Erweiterte Suche\"" },
+			{ "start": 220.3, "end": 223, "action": 5, "object": 0, "color": "#d035af", "description": "remove \"Brandenburg\" search bar, searches" },
+			{ "start": 223.1, "end": 229.7, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scims both book entries, opens them in a new tab, switches to first book tab" },
+			{ "start": 229.8, "end": 276.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "read book page" },
+			{ "start": 276.6, "end": 288.6, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 288.7, "end": 298.5, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim book page, switches to other book tab" },
+			{ "start": 298.6, "end": 309.3, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim book page, switches back to first book tab" },
+			{ "start": 309.4, "end": 326.7, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim book page" },
+			{ "start": 326.8, "end": 355.4, "action": 5, "object": 0, "color": "#d035af", "description": "login, send book as email" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] },
+			{ "id": 5, "name": "Interaktion", "color": "#d035af", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/2e39d076-3a73-4489-9ceb-06cc1bb594c0", "fps": 10, "frames": 3129, "duration": 312.9333, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900, 1950, 2000, 2050, 2100, 2150, 2200, 2250, 2300, 2350, 2400, 2450, 2500, 2550, 2600, 2650, 2700, 2750, 2800, 2850, 2900, 2950, 3000, 3050, 3100
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.9, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 1, "end": 6.8, "action": 2, "object": 0, "color": "#def1d2", "description": "orienanting on site, clicking into search bar, looking at task sheet, " },
+			{ "start": 6.9, "end": 20.4, "action": 4, "object": 0, "color": "#e0cc28", "description": "search for relevant filter category" },
+			{
+				"start": 20.5,
+				"end": 39.5,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "click on \"Volltextsuche\", write \"ethik\" in searchbar, look at suggestions, add \"berlin\" to search bar, delete it, click on first suggestion"
+			},
+			{ "start": 39.6, "end": 48.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first book card" },
+			{ "start": 48.2, "end": 61.2, "action": 2, "object": 0, "color": "#def1d2", "description": "looking at task sheet" },
+			{ "start": 61.3, "end": 70.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first book card" },
+			{ "start": 70.3, "end": 81, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read second book card, look at third book card" },
+			{
+				"start": 81.1,
+				"end": 87.6,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "look at search bar, open drop down filter \"sortieren\" look at possibilities and close it again"
+			},
+			{ "start": 87.7, "end": 97.7, "action": 2, "object": 0, "color": "#def1d2", "description": "orientation on site, go back through the browser to \"Volltextsuche\"" },
+			{ "start": 97.8, "end": 113.9, "action": 5, "object": 0, "color": "#d035af", "description": "use search bar, write \"ethik\", click on second suggestion" },
+			{ "start": 114, "end": 121.4, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read first three book cards" },
+			{
+				"start": 121.5,
+				"end": 140,
+				"action": 5,
+				"object": 0,
+				"color": "#d035af",
+				"description": "go back to volltextsuche, write \"ethik\" in search bar, loog at suggestions, press enter for search"
+			},
+			{ "start": 140.1, "end": 216.4, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim the book cards till finding something that fits the task" },
+			{ "start": 216.5, "end": 259.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "read book page" },
+			{ "start": 259.3, "end": 312.8, "action": 5, "object": 0, "color": "#d035af", "description": "fill out username and password, send book as email" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] },
+			{ "id": 5, "name": "Interaktion", "color": "#d035af", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

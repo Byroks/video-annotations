@@ -1,0 +1,43 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/a3f20052-edc3-4383-9ae7-1d8c9499fa55", "fps": 10, "frames": 897, "duration": 89.7333, "height": 1080, "width": 1920 },
+		"keyframeList": [0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 1.2, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 1.3, "end": 4.9, "action": 2, "object": 0, "color": "#def1d2", "description": "Looking at categories, looking at search bar" },
+			{ "start": 5, "end": 9.3, "action": 5, "object": 0, "color": "#d035af", "description": "Using Search bar, writing \"ethik\"" },
+			{ "start": 9.4, "end": 17, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Filters on right side" },
+			{ "start": 17, "end": 18.7, "action": 5, "object": 0, "color": "#d035af", "description": "Apply filter \"Buch\"" },
+			{ "start": 18.8, "end": 25, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Filters on right side" },
+			{ "start": 25.1, "end": 34, "action": 5, "object": 0, "color": "#d035af", "description": "Open filter \"Deutschland\", apply \"Berlin\" and then \"Brandenburg\"" },
+			{ "start": 34.1, "end": 37.7, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read first book card" },
+			{ "start": 37.8, "end": 43.2, "action": 4, "object": 0, "color": "#e0cc28", "description": "Search for filter on right hand side" },
+			{ "start": 43.3, "end": 45.3, "action": 5, "object": 0, "color": "#d035af", "description": "Apply Filter \"NOT E-book\"" },
+			{
+				"start": 45.4,
+				"end": 49.3,
+				"action": 3,
+				"object": 0,
+				"color": "#0c19ee",
+				"description": "Read first book, look at task sheet, click on first book, look at second book while loading"
+			},
+			{ "start": 49.4, "end": 54.5, "action": 2, "object": 0, "color": "#def1d2", "description": "Orientate on new page, look at task sheet" },
+			{ "start": 54.6, "end": 89.7, "action": 5, "object": 0, "color": "#d035af", "description": "click on E-mail button, enter username and password, enter email adress, send email" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] },
+			{ "id": 5, "name": "Interaktion", "color": "#d035af", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

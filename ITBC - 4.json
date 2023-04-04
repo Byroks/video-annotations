@@ -1,0 +1,40 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/d0934f22-334e-41cb-b729-222603191cbc", "fps": 10, "frames": 1275, "duration": 127.56663333333333, "height": 1080, "width": 1920 },
+		"keyframeList": [0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.7, "action": 0, "object": 0, "color": "#000000", "description": "loading" },
+			{ "start": 0.8, "end": 16, "action": 5, "object": 0, "color": "#d035af", "description": "login, close password saving suggestion" },
+			{ "start": 16.1, "end": 19.6, "action": 2, "object": 0, "color": "#def1d2", "description": "Orientation on start site" },
+			{ "start": 19.7, "end": 23.8, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 23.9, "end": 32.1, "action": 5, "object": 0, "color": "#d035af", "description": "write \"ethik\" in search bar, look at suggestion, press enter to search" },
+			{ "start": 32.2, "end": 37.3, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first book card" },
+			{ "start": 37.4, "end": 40.6, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 40.7, "end": 47.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read first and second book card" },
+			{ "start": 47.3, "end": 50.3, "action": 2, "object": 0, "color": "#def1d2", "description": "look at task sheet" },
+			{ "start": 50.4, "end": 57.9, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first book card" },
+			{ "start": 58, "end": 63, "action": 5, "object": 0, "color": "#d035af", "description": "open filter vor \"Deutschland\" click on \"Brandenburg\"" },
+			{ "start": 63.1, "end": 68.1, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read first book card" },
+			{ "start": 68.2, "end": 72.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "scim other book cards" },
+			{ "start": 73, "end": 81.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "read first book card" },
+			{ "start": 81.3, "end": 85.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "read second book card, click on it" },
+			{ "start": 85.9, "end": 93.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "read book page" },
+			{ "start": 93.3, "end": 127.4, "action": 5, "object": 0, "color": "#d035af", "description": "login again, send email" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] },
+			{ "id": 5, "name": "Interaktion", "color": "#d035af", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}

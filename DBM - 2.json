@@ -1,0 +1,75 @@
+{
+	"version": "2.0.1",
+	"annotation": {
+		"video": { "src": "blob:https://vidat2.davidz.cn/bcca1280-2c00-47e1-b8d2-0895a8122eb6", "fps": 10, "frames": 3189, "duration": 318.96663333333333, "height": 1080, "width": 1920 },
+		"keyframeList": [
+			0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600, 1650,
+			1700, 1750, 1800, 1850, 1900, 1950, 2000, 2050, 2100, 2150, 2200, 2250, 2300, 2350, 2400, 2450, 2500, 2550, 2600, 2650, 2700, 2750, 2800, 2850, 2900, 2950, 3000, 3050, 3100, 3150
+		],
+		"objectAnnotationListMap": {},
+		"regionAnnotationListMap": {},
+		"skeletonAnnotationListMap": {},
+		"actionAnnotationList": [
+			{ "start": 0, "end": 0.5, "action": 0, "object": 0, "color": "#000000", "description": "Site loading" },
+			{ "start": 0.6, "end": 8.2, "action": 2, "object": 0, "color": "#def1d2", "description": "Looking at header image, looking at paper for 2 seconds" },
+			{ "start": 8.3, "end": 12.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Navigation Bar" },
+			{ "start": 12.6, "end": 17.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim start Site for relevant information" },
+			{ "start": 18, "end": 26, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reads Names and titles, marks correspondant" },
+			{ "start": 25.9, "end": 31.1, "action": 2, "object": 0, "color": "#def1d2", "description": "Reorintates after reading new task" },
+			{ "start": 31.1, "end": 40.3, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim start Site for relevant information" },
+			{ "start": 40.4, "end": 42.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Navigation, Click on Studium" },
+			{
+				"start": 42.9,
+				"end": 48.1,
+				"action": 2,
+				"object": 0,
+				"color": "#def1d2",
+				"description": "Orientate on Studium Site, Look at header image, close cookie consent in bottom of screen"
+			},
+			{ "start": 48.1, "end": 56.3, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studium Section" },
+			{ "start": 56.4, "end": 72.4, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim studium site, checks task sheet when he thought he found relevant information" },
+			{
+				"start": 72.5,
+				"end": 79.5,
+				"action": 3,
+				"object": 0,
+				"color": "#0c19ee",
+				"description": "Reads and Marks what he thinks is relevant information in the Studienverlaufsplan, doesn't complete the task"
+			},
+			{ "start": 79.6, "end": 98.7, "action": 4, "object": 0, "color": "#e0cc28", "description": "Searches for relevant information again, scrolls back top" },
+			{ "start": 98.7, "end": 103.2, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reads relevant information for task 3, marks relevant information" },
+			{ "start": 102.6, "end": 120.3, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reads the section again" },
+			{ "start": 120, "end": 126.8, "action": 2, "object": 0, "color": "#def1d2", "description": "Looking through navigation and going to Bewerbung" },
+			{ "start": 126.9, "end": 140.7, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reading relevant information for task 2, not realising it" },
+			{ "start": 140.8, "end": 146.6, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Berwebungs Site for relevant Information, stopping on Dokumente" },
+			{ "start": 146.7, "end": 157.6, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read and Mark Dokumente, thinking it's relevant information" },
+			{ "start": 156.7, "end": 160.7, "action": 4, "object": 0, "color": "#e0cc28", "description": "rechecking already read material" },
+			{ "start": 160.8, "end": 167.8, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Dokumente again" },
+			{ "start": 165, "end": 173.8, "action": 2, "object": 0, "color": "#def1d2", "description": "Going to Studium" },
+			{ "start": 173.8, "end": 182, "action": 3, "object": 0, "color": "#0c19ee", "description": "Rereading Studium" },
+			{ "start": 182.1, "end": 194.4, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reading Organisation white area" },
+			{ "start": 194.5, "end": 202.5, "action": 3, "object": 0, "color": "#0c19ee", "description": "Reading Organisation grey area" },
+			{ "start": 202.6, "end": 218.3, "action": 2, "object": 0, "color": "#def1d2", "description": "Scims Studium Seite, Reorientates himself where to go next in navigation bar" },
+			{ "start": 218.4, "end": 231, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Key Facts" },
+			{ "start": 231.1, "end": 235, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Studierende Sagen" },
+			{ "start": 235.1, "end": 243.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim the start site" },
+			{ "start": 244, "end": 250, "action": 2, "object": 0, "color": "#def1d2", "description": "Reads Task paper, goes to Studium site" },
+			{ "start": 250, "end": 271.8, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Studium Site" },
+			{ "start": 271.9, "end": 280.4, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Projeke Site" },
+			{ "start": 280.5, "end": 291.4, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Team Site" },
+			{ "start": 291.5, "end": 295.9, "action": 4, "object": 0, "color": "#e0cc28", "description": "Scim Business Trip site" },
+			{ "start": 296, "end": 318.9, "action": 3, "object": 0, "color": "#0c19ee", "description": "Read Wer kann sich bewerben and mark relevant information for task 2" }
+		]
+	},
+	"config": {
+		"objectLabelData": [{ "id": 0, "name": "default", "color": "#00FF00" }],
+		"actionLabelData": [
+			{ "id": 0, "name": "default", "color": "#000000", "objects": [0] },
+			{ "id": 1, "name": "Click", "color": "#87a275", "objects": [1] },
+			{ "id": 2, "name": "Orientierung", "color": "#def1d2", "objects": [0] },
+			{ "id": 3, "name": "Lesen", "color": "#0c19ee", "objects": [0] },
+			{ "id": 4, "name": "Suche", "color": "#e0cc28", "objects": [0] }
+		],
+		"skeletonTypeData": []
+	}
+}
